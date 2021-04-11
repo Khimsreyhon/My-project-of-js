@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>FOOD</title>
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">FOOD</h1>
+                <p>food for yourself</p>
+
+            </div>
+        </header>
+        <form id="add-food">
+            <input id="add-food-textfield" type="text" placeholder="Add a food..." />
+            <input id="add-price-textfield" type="number" placeholder="Add a price..." />
+            <label for="datemin"></label>
+            <input type="date" id="datemin" name="datemin" min="2000-01-02">
+            <button id="create">create</button>
+        </form>
+        <div>
+            <button id="Add">Add</button>
+        </div>
+        <div class="container">
+            <p>Your favorite food</p>
+            <form action="" id="search-foods">
+                <input type="text" placeholder="Search food..." />
+            </form>
+            <div id="food-list">
+                <ul>
+                    <li>
+                        <span class="name">Pizza</span>
+                        <span class="delete">x</span>
+
+                    </li>
+                    <li>
+                        <span class="name">Hamburger</span>
+                        <span class="delete">x</span>
+                    </li>
+                    <li>
+                        <span class="name">Fried chicken</span>
+                        <span class="delete">x</span>
+                    </li>
+                    <li>
+                        <span class="name">Sandwich</span>
+                        <span class="delete">x</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <script src="js/app.js"></script>
+</body>
+
+</html>
